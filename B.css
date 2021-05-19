@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 600px;
+    width: 900px;
+}
+
+.main{
+    background-color: orchid;
+    height: calc(100vh - 50px);
+    width: 100%;
+    position:absolute;
+}
+
+div.fullimg {
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+    position:relative;
+    top:0;
+    left:0;
+}
